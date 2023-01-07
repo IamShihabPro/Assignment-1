@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+/* Header Section */
+.header-section {
+    background-image: url("../images/banner/banner3.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+  
+.header-section div {
+    text-align: right;
+    margin-left: 400px;
+}
+  
+.header-sub {
+    width: 845px;
+}
+.header-section div h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    padding: 216px 230px 0 0;
+  }
+.header-section div p {
+    text-align: right;
+    padding: 0 230px 0 0;
+    margin: 24px 0 32px 0;
+}
+.btn {
+    width: 215px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #005fac;
+    background-color: white;
+    height: 64px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Main Section */
+
+/* Personal Info Section */
+.person-info {
+    display: flex;
+    gap: 50px;
+    margin-top: 130px;
+}
+
+.picture-info{
+    margin: 80px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: rgb(12, 12, 12);
+    margin-bottom: 30px;
+}
+
+.info-des{
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    margin-right: 100px;
+    margin-bottom: 15px;
+}
+
+.info-item{
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(88, 87, 87);
+}
+
+.fa-check {
+    color: rgb(3, 201, 99);
+    height: 24px;
+    width: 24px;
+}
+  
+/* Plan Section */
+.plan-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plans-sub{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plans-sub h2{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-size: 35;
+    font-weight: 700;
+}
+.plans-sub p{
+    color: rgb(40, 37, 37);
+}
+
+
+/* Call */
+.call-banner{
+    width: 1070px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(68, 154, 219, 0.7) 20%, rgba(0, 0, 0, 0.5) 100%), url("../images/watch.png");
+    margin: 50px auto;
+}
+.call-banner div{
+    text-align: left;
+    color: white;
+    padding: 60px 65px 0;
+}
+.call-banner div h1{
+    margin-bottom: 24px;
+    font-size: 40px;
+}
+.btn-secondary{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(10, 93, 142);
+    background-color: white;
+    height: 65px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+/* Footer Section */
+footer{
+    background-color: rgb(20, 20, 20);
+    padding: 100px 0;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    max-width: 1070px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-info{
+    width: 500px;
+}
+
+.footer-info h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-info p{
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.social-media li img{
+    width: 40px;
+}
+
+.footer-subs h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.footer-subs input{
+    padding: 0 10px;
+    height: 55px;
+    width: 300px;
+    border-radius: 8px;
+}
+.footer-subs button{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+    background: rgb(5, 63, 170);
+    border-radius: 10px;
+    border: black ;
+    height: 55px;
+    width: 160px;
+    color: white;
+}
